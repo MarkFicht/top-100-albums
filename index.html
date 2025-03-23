@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- 🌐 Language + viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="language" content="en" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- 🔐 Security headers -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
+        default-src 'self';
+        script-src 'self' 'unsafe-inline';
+        style-src 'self' 'unsafe-inline';
+        img-src 'self' data: https:;
+        font-src 'self' https: data:;
+        connect-src 'self' https://itunes.apple.com;
+        media-src https://audio-ssl.itunes.apple.com;
+        frame-src https:;
+        object-src 'none';
+      "
+    />
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta name="referrer" content="no-referrer" />
+    <meta name="permissions-policy" content="geolocation=(), camera=(), microphone=()" />
+
+    <!-- ✅ SEO -->
+    <title>Top 100 Albums – Vue Music App</title>
+    <meta
+      name="description"
+      content="Explore and preview the top 100 albums from iTunes. Add favorites, search, and enjoy a modern music experience built with Vue 3 + TypeScript."
+    />
+    <link rel="canonical" href="https://your-live-url.com/" />
+
+    <!-- 🖼️ Favicon -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- 📲 Open Graph (Facebook, Discord, LinkedIn) -->
+    <meta property="og:title" content="Top 100 Albums – Vue Music App" />
+    <meta
+      property="og:description"
+      content="Preview iTunes Top Albums, manage favorites and enjoy a polished Vue-based UI."
+    />
+    <meta property="og:image" content="/og-image.jpg" />
+    <meta property="og:url" content="https://your-live-url.com/" />
+    <meta property="og:type" content="website" />
+
+    <!-- 🐦 Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Top 100 Albums – Vue Music App" />
+    <meta
+      name="twitter:description"
+      content="Explore the latest albums, play previews and save your favorites. Built with Vue 3 + Vuetify."
+    />
+    <meta name="twitter:image" content="/og-image.jpg" />
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

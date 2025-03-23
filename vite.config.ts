@@ -8,6 +8,7 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/top-100-albums/',
   plugins: [
     vue(),
     vueJsx(),

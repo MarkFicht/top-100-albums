@@ -4,6 +4,10 @@ A modern, responsive music discovery app that fetches the **Top 100 Albums** fro
 
 ---
 
+## 😎 DEMO
+
+[Click for DEMO](https://MarkFicht.github.io/top-100-albums/)
+
 ## ✨ Features
 
 ### 🔍 Search

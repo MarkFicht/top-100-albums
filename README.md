@@ -8,6 +8,8 @@ A modern, responsive music discovery app that fetches the **Top 100 Albums** fro
 
 [Click for DEMO](https://MarkFicht.github.io/top-100-albums/)
 
+---
+
 ## ✨ Features
 
 ### 🔍 Search
@@ -186,8 +188,7 @@ cypress/
 
 ## 📸 Preview
 
-![screenshot](./public/og-image.png)
-In the Future
+![screenshot](./src/assets/iphone-preview-min.png)
 
 ---
 
